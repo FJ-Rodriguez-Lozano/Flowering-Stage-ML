@@ -1,31 +1,28 @@
 # Flowering-Stage-ML
-
+This repository contains the additional results of the article entitled "Determination of flowering stage based on artificial intelligence and the daily weight of bee hives". Specifically, the following information is provided:
 
 ## Repository content
-The data set includes: 100 recordings of shots made in the blackball billiard modality; 100 recordings of shots in the carom billiard modality; 100 recordings of shots in the snooker billiard modality. In addition, not only are these recordings available, but the exact positions have been obtained manually for a subset of each modality, carrying out comparisons with different methodologies and with the algorithm proposed in our work. Therefore, in the dataset we can find the following folders and files: 
-
+* **Algorithm results**: the confusion matrices (in .pdf format) of the tested algorithms, as well as the calculation of the metrics accuracy, precision, recall and weighted average f1-score. 
+* **Best algorithm**: a .txt file is provided with the rules of the best model obtained as well as a graphical representation of it in .pdf format.
 
 ## How to cite this
 More information about the aim of our work can be found in our paper. If you use this dataset, make sure you cite this work as:
-Latex:
+Latex .bib entry:
 ```latex
-@article{Rodriguez_Lozano_2023,
+@article{Andres_Gersnoviez_2023,
 	doi = {N/A},
 	url = {N/A},
 	year = 2023,
 	month = {N/A},
 	publisher = {N/A},
-	author = {Francisco J. Rodriguez-Lozano and Juan C. G{\'{a}}mez-Granados and H{\'{e}}ctor Mart{\'{\i}}nez and Jose M. Palomares and Joaqu{\'{\i}}n Olivares},
-	title = {3D reconstruction system and multiobject local tracking algorithm designed for billiards},
+	author = {Andr{\'{e}}s Gersnoviez and Francisco J. Rodriguez-Lozano and Mar\'{\i}a Brox and Jos{\'{e}} Moreno-Carbonell and Manuel Ortiz-Lopez and Jos{\'{e}} M. Flores},
+	title = {Determination of flowering stage based on artificial intelligence and the daily weight of bee hives},
 	journal = {N/A}
 }
 ```
 IEEE citation style: N/A.
 
 APA citation style: N/A
-
-## Dataset link
-The dataset requires approximately 190 GB of disk space, and it is available at the following web [Link](https://ucordoba-my.sharepoint.com/:f:/g/personal/i02rolof_uco_es/EqvYzy9bx_hNjAOfptG03jMBEoBLwBQZRkCMdmM31IW_5w?e=3aa7hU).
 
 ## License
 This dataset is licensed by the author under a CC BY-SA 4.0 license [https://creativecommons.org/licenses/by-sa/4.0/deed.en](https://creativecommons.org/licenses/by-sa/4.0/deed.en).
